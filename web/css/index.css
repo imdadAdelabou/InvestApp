@@ -40,8 +40,18 @@ p {
     font-family: "Poppins";
     height: 20px;
 }
+.cont1 {
+    display: block;
+    padding-right: 150px;
+}
+
+.cont2 {
+    margin-top: 22px;
+}
+
 section .container {
-     display: block;
+    width: 100%;
+     display: flex;
 }
  
 h4 {

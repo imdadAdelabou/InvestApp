@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@font-face {
+    font-family: "SFProRegular";
+    src: url("../assets/fonts/FontsFree-Net-SFProText-Regular-1.ttf");
+}
+
+body {
+    background-color: #F0F1F8;
+}
+.container  {
+    padding: 20px 0 0 50px;
+    display: flex;
+}
+
+.container img {
+    padding-right: 30%;
+}
+
+ul {
+    list-style: none;
+    padding-top: 8px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 20px 0px 0;
+    cursor: pointer;
+    font-family: "SFProRegular";
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+li:hover {
+    color: white;
+    background: #C4EDE0;
+}
+
+p {
+    font-size: 78px;
+    font-family: "Poppins";
+    height: 20px;
+}
+section .container {
+     display: block;
+}
+ 
+h4 {
+     color: #4F4F4F;
+     font-family: "SFProRegular";
+     padding: 0 0 40px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins";
+    background-color: #33914D;
+    border-radius: 15px;
+    padding: 20px;
+}

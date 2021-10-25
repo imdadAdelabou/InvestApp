@@ -2,6 +2,7 @@ import "package:flutter/material.dart";
 import 'package:invest_app/components/custom_button.dart';
 import 'package:invest_app/components/custom_text_field.dart';
 import 'package:invest_app/utils/constants.dart';
+import 'package:invest_app/views/home/home.view.dart';
 
 class SignUpView extends StatelessWidget {
   static const String name = "/sign-up";
@@ -50,7 +51,9 @@ class SignUpView extends StatelessWidget {
                 const CustomTextField(hinText: "Password"),
                 const SizedBox(height: 18.0),
                 CustomButton(
-                  action: () {},
+                  action: () {
+                    Navigator.of(context).pushNamed(HomeView.name);
+                  },
                   content: Text(
                     "Create account",
                     style: contentStyle,

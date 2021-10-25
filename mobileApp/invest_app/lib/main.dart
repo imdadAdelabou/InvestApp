@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:invest_app/onboarding.dart';
 import 'package:invest_app/splash_screen.dart';
+import 'package:invest_app/views/home/home.view.dart';
 import 'package:invest_app/views/login/sign_up.dart';
 
 void main() {
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
       routes: {
         OnBoarding.name: (context) => const OnBoarding(),
         SignUpView.name: (context) => const SignUpView(),
+        HomeView.name: (context) => const HomeView(),
       },
     );
   }

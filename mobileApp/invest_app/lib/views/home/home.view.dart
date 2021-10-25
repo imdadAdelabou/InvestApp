@@ -107,6 +107,37 @@ class HomeView extends StatelessWidget {
             ],
           ),
         ),
+        bottomNavigationBar: BottomNavigationBar(
+          type: BottomNavigationBarType.fixed,
+          showUnselectedLabels: true,
+          unselectedItemColor: Colors.grey,
+          selectedItemColor: const Color(0xff31A063),
+          selectedLabelStyle: const TextStyle(
+            fontFamily: "DMSANS",
+          ),
+          unselectedLabelStyle: const TextStyle(
+            fontFamily: "DMSANS",
+            color: Colors.grey,
+          ),
+          items: [
+            const BottomNavigationBarItem(
+              label: "home",
+              icon: Icon(Icons.home_filled),
+            ),
+            const BottomNavigationBarItem(
+              icon: Icon(Icons.search),
+              label: "Product",
+            ),
+            BottomNavigationBarItem(
+              icon: Image.asset("assets/imgs/Shape.png"),
+              label: "Transaction",
+            ),
+            const BottomNavigationBarItem(
+              label: "Account",
+              icon: Icon(FontAwesomeIcons.user),
+            )
+          ],
+        ),
       ),
     );
   }

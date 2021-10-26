@@ -1,11 +1,15 @@
 import "package:flutter/material.dart";
+import 'package:invest_app/models/bank_model.dart';
 import 'package:invest_app/models/history_model.dart';
 import 'package:invest_app/models/notif_model.dart';
 import 'package:invest_app/models/plan_model.dart';
 import 'package:invest_app/models/user_data.dart';
+import 'package:invest_app/views/home/bank/bank_account.dart';
 import 'package:invest_app/views/home/main.dart';
+import 'package:invest_app/views/home/sample_page.dart';
 import 'package:invest_app/views/home/search_product.dart';
 import 'package:invest_app/views/home/transaction/transaction.view.dart';
+import 'package:invest_app/views/profile/contact_info.dart';
 import 'package:invest_app/views/profile/profile.dart';
 
 TextStyle headTitleStyle(double size, {Color? color}) {
@@ -92,12 +96,31 @@ List<HistoryModel> histories = [
 ];
 
 List<UserData> datas = [
-  UserData(icon: "assets/imgs/icons/contact.svg", content: "Contact Info"),
   UserData(
-      icon: "assets/imgs/icons/funding.svg", content: "Source of Funding Info"),
-  UserData(icon: "assets/imgs/icons/bank.svg", content: "Bank Account Info"),
-  UserData(icon: "assets/imgs/icons/doc.svg", content: "Document Info"),
-  UserData(icon: "assets/imgs/icons/setting.svg", content: "Settings"),
+    icon: "assets/imgs/icons/contact.svg",
+    content: "Contact Info",
+    routeName: ContactInfo.name,
+  ),
+  UserData(
+    icon: "assets/imgs/icons/funding.svg",
+    content: "Source of Funding Info",
+    routeName: SamplaPage.name,
+  ),
+  UserData(
+    icon: "assets/imgs/icons/bank.svg",
+    content: "Bank Account Info",
+    routeName: BankAccount.name,
+  ),
+  UserData(
+    icon: "assets/imgs/icons/doc.svg",
+    content: "Document Info",
+    routeName: SamplaPage.name,
+  ),
+  UserData(
+    icon: "assets/imgs/icons/setting.svg",
+    content: "Settings",
+    routeName: SamplaPage.name,
+  ),
 ];
 
 List<UserData> userDatas = [
@@ -122,4 +145,17 @@ List<NotifModel> notifs = [
       urlImage: "assets/imgs/threeimgs.png",
       content: "Where do you see yourself\nin the next ages.",
       dateNotif: "30secs ago"),
+];
+
+List<BankModel> accounts = [
+  BankModel(
+    img: "assets/imgs/account1.png",
+    title: "Bank of Amrica - 0182128xxx",
+    subTitle: "Jonas Macroni",
+  ),
+  BankModel(
+    img: "assets/imgs/account2.png",
+    title: "Zenith Bank - 0182128xxx",
+    subTitle: "Jonas Macroni",
+  ),
 ];

@@ -51,7 +51,12 @@ class Profile extends StatelessWidget {
             (index) => Padding(
               padding: const EdgeInsets.only(bottom: 20.0),
               child: InkWell(
-                onTap: () => Navigator.of(context).pushNamed(ContactInfo.name),
+                onTap: () {
+                  if (datas[index].routeName != null ||
+                      datas[index].routeName != "") {
+                    Navigator.of(context).pushNamed(datas[index].routeName!);
+                  }
+                },
                 child: CustomListTile(
                   icon: datas[index].icon,
                   content: datas[index].content,

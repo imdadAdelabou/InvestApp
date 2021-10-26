@@ -3,6 +3,9 @@ import 'package:invest_app/onboarding.dart';
 import 'package:invest_app/splash_screen.dart';
 import 'package:invest_app/views/home/home.view.dart';
 import 'package:invest_app/views/login/sign_up.dart';
+import 'package:invest_app/views/profile/contact_info.dart';
+
+import 'views/notification/notification.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,6 +28,8 @@ class MyApp extends StatelessWidget {
         OnBoarding.name: (context) => const OnBoarding(),
         SignUpView.name: (context) => const SignUpView(),
         HomeView.name: (context) => const HomeView(),
+        ContactInfo.name: (context) => const ContactInfo(),
+        NotificationView.name: (context) => const NotificationView(),
       },
     );
   }

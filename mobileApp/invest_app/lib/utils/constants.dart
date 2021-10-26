@@ -1,5 +1,6 @@
 import "package:flutter/material.dart";
 import 'package:invest_app/models/history_model.dart';
+import 'package:invest_app/models/notif_model.dart';
 import 'package:invest_app/models/plan_model.dart';
 import 'package:invest_app/models/user_data.dart';
 import 'package:invest_app/views/home/main.dart';
@@ -106,4 +107,19 @@ List<UserData> userDatas = [
   UserData(icon: "Email", content: "warren.buff@invest.ai"),
   UserData(icon: "Phone Number", content: "+229 67558797"),
   UserData(icon: "Address", content: "Cotonou Midombo"),
+];
+
+List<NotifModel> notifs = [
+  NotifModel(
+      urlImage: "assets/imgs/firstImg.png",
+      content: "Apple stocks just increased \nCheck it out now.",
+      dateNotif: "15min ago"),
+  NotifModel(
+      urlImage: "assets/imgs/secondImgs.png",
+      content: "Check out today’s best inves-\ntor. You’ll learn from him",
+      dateNotif: "3min ago"),
+  NotifModel(
+      urlImage: "assets/imgs/threeimgs.png",
+      content: "Where do you see yourself\nin the next ages.",
+      dateNotif: "30secs ago"),
 ];

@@ -1,6 +1,6 @@
 # invest_app
 
-A new Flutter project.
+A mobile app made with Flutter that provides you with safe options in which you can invest without risk. Guaranteed profits.
 
 ## Getting Started
 

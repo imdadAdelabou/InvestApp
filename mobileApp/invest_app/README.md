@@ -1,16 +1,31 @@
-# invest_app
+# INVEST APP
 
-A new Flutter project.
+Invest App. A mobile investment application made with Flutter to allow you to invest in winning opportunities.
 
-## Getting Started
+Star⭐ the repo if you like what you see😉.
+## ScreenShots 
 
-This project is a starting point for a Flutter application.
+| 1 | 2 |
+|-------|--------|
+|<img src="screenshots/1.jpg" width="400"/>|<img src="screenshots/2.jpg" width="400">|
 
-A few resources to get you started if this is your first Flutter project:
+| 3 | 4 |
+|-------|--------|
+|<img src="screenshots/3.jpg" width="400"/>|<img src="screenshots/4.jpg" width="400">|
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+| 5 | 6 |
+|-------|--------|
+|<img src="screenshots/5.jpg" width="400"/>|<img src="screenshots/6.jpg" width="400">|
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| 7 | 8 |
+|-------|--------|
+|<img src="screenshots/7.jpg" width="400"/>|<img src="screenshots/8.jpg" width="400">|
+
+## ✨ Requirements
+* Any Operating System (ie. MacOS X, Linux, Windows)
+* Any IDE with Flutter SDK installed (ie. IntelliJ, Android Studio, VSCode etc)
+* A little knowledge of Dart and Flutter
+* A brain to think 🤓🤓
+
+## 🤓 Author(s)
+**Imdad Adelabou / IMDAD TECH** [![Twitter Follow](https://img.shields.io/twitter/follow/IAdelabou?style=social)](https://twitter.com/IAdelabou)

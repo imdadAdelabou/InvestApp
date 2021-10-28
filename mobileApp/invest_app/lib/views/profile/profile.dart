@@ -1,7 +1,6 @@
 import "package:flutter/material.dart";
 import 'package:invest_app/components/custom_list_tile.dart';
 import 'package:invest_app/utils/constants.dart';
-import 'package:invest_app/views/profile/contact_info.dart';
 
 class Profile extends StatelessWidget {
   const Profile({Key? key}) : super(key: key);

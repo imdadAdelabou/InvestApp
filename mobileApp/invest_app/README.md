@@ -1,11 +1,7 @@
 # INVEST APP
 
-<<<<<<< HEAD
 Invest App. A mobile investment application made with Flutter to allow you to invest in winning opportunities.
-=======
 A mobile app made with Flutter that provides you with safe options in which you can invest without risk. Guaranteed profits.
->>>>>>> 85df325da9292152024a12ef72f75c801203b853
-
 Star⭐ the repo if you like what you see😉.
 ## ScreenShots 
 
